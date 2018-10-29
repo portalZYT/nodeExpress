@@ -1,0 +1,16 @@
+{
+  "name": "expresstest",
+  "version": "1.0.0",
+  "description": "测试express框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Portal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mysql": "^2.16.0"
+  }
+}
