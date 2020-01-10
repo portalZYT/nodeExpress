@@ -1,16 +1,17 @@
 {
-  "name": "expresstest",
-  "version": "1.0.0",
-  "description": "测试express框架",
-  "main": "index.js",
+  "name": "hello-world",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "supervisor ./bin/www"
   },
-  "author": "Portal",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "jquery": "^3.3.1",
-    "mysql": "^2.16.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "supervisor": "^0.12.0"
   }
 }
